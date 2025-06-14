@@ -7,7 +7,7 @@ const Header = () => {
       <div>
         <Image src={assets.profile_img} alt='Abhinav' className='rounded-full w-40'/>
       </div>
-      <h3 className='flex items-end gap-2 text-xl md:text-2xl mb-3 font-Ovo'> Hi I'm  <span className='text-red-600'><u>Abhinav Raj</u></span> <Image src={assets.hand_icon} alt='hand-wave' className='w-6'/></h3>
+      <h3 className='flex items-end gap-2 text-xl md:text-2xl mb-3 font-Ovo'> Hi, I'm  <span className='text-red-600'><u>Abhinav Raj</u></span> <Image src={assets.hand_icon} alt='hand-wave' className='w-6'/></h3>
       <h1 className='text-3-xl sm:text-6xl lg:text-[66px] font-Ovo'>
           Crafting Stories In Light And Motion 📽️
       </h1>
@@ -17,7 +17,7 @@ const Header = () => {
 
       </p>
       <div className='flex flex-col sm:flex-row items-center gap-4 mt-4'>
-        <a href="/sample-resume.pdf" download className='px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2 hover:bg-black hover:text-white duration-500'>My resume<Image src={assets.download_icon} alt='download' className='w-4'/></a> 
+        <a href="/RajAbhinavCV.pdf" download className='px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2 hover:bg-black hover:text-white duration-500'>My resume<Image src={assets.download_icon} alt='download' className='w-4'/></a> 
       </div>
 
     </div>
