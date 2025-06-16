@@ -72,6 +72,14 @@ export const workData = [
         link: 'https://www.youtube.com/watch?v=ZgAeVs0zeq8&ab_channel=DelhiPolice'
     },
     {
+        title: 'Ad Commercial',
+        description: 'India Shelter Home Loans',
+        videoId: '7Qr9bSDWhdKwdFtZ',
+        platform: 'youtube',
+        link: 'https://youtu.be/Euhvyqe9daA?si=7Qr9bSDWhdKwdFtZ'
+    }
+    ,
+    {
         title: 'Short Film',
         description: 'Perfect Match',
         videoId: 'qr1tbsYn00Y',
