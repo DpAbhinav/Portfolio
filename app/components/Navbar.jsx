@@ -37,8 +37,8 @@ const Navbar = () => {
 
         <ul className={`hidden md:flex item-center gap-6 lg:gap-8 rounded-full px-12 py-3 ${isScroll ? "" : " shadow-sm bg-opacity-50"} bg-white shadow-sm bg-opacity-50`}>
             <li><a className='font-Ovo hover:text-red-600 transition duration-300' href="#top">Home</a></li>
+            <li><a className='font-Ovo hover:text-red-600 transition duration-300' href="#gallery">Gallery</a></li>  
             <li><a className='font-Ovo hover:text-red-600 transition duration-300'  href="#about">About Me</a></li>
-            <li><a className='font-Ovo hover:text-red-600 transition duration-300' href="#gallery">Gallery</a></li>
             <li><a className='font-Ovo hover:text-red-600 transition duration-300' href="#work">My Work</a></li>
             {/* <li><a className='font-Ovo hover:text-red-600 transition duration-300' href="#contact">Contact Me</a></li> */}
         </ul>
@@ -64,8 +64,8 @@ const Navbar = () => {
             </div>
 
             <li><a className='font-Ovo hover:text-red-600 transition duration-300' onClick={closeMenu} href="#top">Home</a></li>
-            <li><a className='font-Ovo hover:text-red-600 transition duration-300' onClick={closeMenu} href="#about">About Me</a></li>
             <li><a className='font-Ovo hover:text-red-600 transition duration-300' onClick={closeMenu} href="#gallery">Gallery</a></li>
+            <li><a className='font-Ovo hover:text-red-600 transition duration-300' onClick={closeMenu} href="#about">About Me</a></li>
             <li><a className='font-Ovo hover:text-red-600 transition duration-300' onClick={closeMenu} href="#work">My Work</a></li>
             <li><a className='font-Ovo hover:text-red-600 transition duration-300' onClick={closeMenu} href="#contact">Contact Me</a></li>
         </ul>
