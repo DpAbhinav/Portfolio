@@ -3,7 +3,7 @@ import Image from 'next/image'
 import { assets } from '@/assets/assets'
 const Header = () => {
   return (
-    <div className='w-11/12 max-w-3xl text-center mx-auto h-screen flex flex-col items-center justify-center gap-4'>
+    <div className='w-11/12 max-w-3xl text-center mx-auto h-screen flex flex-col items-center justify-center gap-4 '>
       <div>
         <Image src={assets.profile_img} alt='Abhinav' className='rounded-full w-40'/>
       </div>
@@ -17,7 +17,7 @@ const Header = () => {
 
       </p>
       <div className='flex flex-col sm:flex-row items-center gap-4 mt-4'>
-        <a href="/RajAbhinavCV.pdf" download className='px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2 hover:bg-black hover:text-white duration-500'>My resume<Image src={assets.download_icon} alt='download' className='w-4'/></a> 
+        <a href="/RajAbhinavCV.pdf" download className='px-10 py-3 border rounded-full bg-black text-white border-gray-500 flex items-center cursor-pointer gap-2 hover:-translate-y-2.5 transition-all  duration-400 hover:shadow-[0_7px_0_-2px_#f85959,0_15px_0_-4px_#39a2db,0_16px_10px_-3px_#39a2db]  active:translate-y-[-5px]  active:shadow-[0_2px_0_-2px_#f85959,0_8px_0_-4px_#39a2db,0_12px_10px_-3px_#39a2db]'>My Resume<Image src={assets.download_icon} alt='download' className='w-4'/></a> 
       </div>
 
     </div>
@@ -25,3 +25,4 @@ const Header = () => {
 }
 
 export default Header
+

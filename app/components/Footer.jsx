@@ -8,7 +8,11 @@ const Footer = () => {
         <div className='w-max flex items-center gap-2 mx-auto'> 
             <Image src={assets.mail_icon} alt='' className='w-6 mx-auto mb-2'/>
             rajabhinav201@gmail.com
-            <a href="https://wa.me/qr/J32NDAU7X33YF1" target='_blank' className='ml-3'><Image src={assets.whatsapp} alt='' className='w-7'/></a>
+            <a href="https://wa.me/qr/J32NDAU7X33YF1" target='_blank' className='ml-3'>
+              <svg x="0px" y="0px" width="40" height="40" viewBox="0 0 48 48">
+<path fill="#fff" d="M4.9,43.3l2.7-9.8C5.9,30.6,5,27.3,5,24C5,13.5,13.5,5,24,5c5.1,0,9.8,2,13.4,5.6	C41,14.2,43,18.9,43,24c0,10.5-8.5,19-19,19c0,0,0,0,0,0h0c-3.2,0-6.3-0.8-9.1-2.3L4.9,43.3z"></path><path fill="#fff" d="M4.9,43.8c-0.1,0-0.3-0.1-0.4-0.1c-0.1-0.1-0.2-0.3-0.1-0.5L7,33.5c-1.6-2.9-2.5-6.2-2.5-9.6	C4.5,13.2,13.3,4.5,24,4.5c5.2,0,10.1,2,13.8,5.7c3.7,3.7,5.7,8.6,5.7,13.8c0,10.7-8.7,19.5-19.5,19.5c-3.2,0-6.3-0.8-9.1-2.3	L5,43.8C5,43.8,4.9,43.8,4.9,43.8z"></path><path fill="#cfd8dc" d="M24,5c5.1,0,9.8,2,13.4,5.6C41,14.2,43,18.9,43,24c0,10.5-8.5,19-19,19h0c-3.2,0-6.3-0.8-9.1-2.3	L4.9,43.3l2.7-9.8C5.9,30.6,5,27.3,5,24C5,13.5,13.5,5,24,5 M24,43L24,43L24,43 M24,43L24,43L24,43 M24,4L24,4C13,4,4,13,4,24	c0,3.4,0.8,6.7,2.5,9.6L3.9,43c-0.1,0.3,0,0.7,0.3,1c0.2,0.2,0.4,0.3,0.7,0.3c0.1,0,0.2,0,0.3,0l9.7-2.5c2.8,1.5,6,2.2,9.2,2.2	c11,0,20-9,20-20c0-5.3-2.1-10.4-5.8-14.1C34.4,6.1,29.4,4,24,4L24,4z"></path><path fill="#40c351" d="M35.2,12.8c-3-3-6.9-4.6-11.2-4.6C15.3,8.2,8.2,15.3,8.2,24c0,3,0.8,5.9,2.4,8.4L11,33l-1.6,5.8	l6-1.6l0.6,0.3c2.4,1.4,5.2,2.2,8,2.2h0c8.7,0,15.8-7.1,15.8-15.8C39.8,19.8,38.2,15.8,35.2,12.8z"></path><path fill="#fff" fillRule="evenodd" d="M19.3,16c-0.4-0.8-0.7-0.8-1.1-0.8c-0.3,0-0.6,0-0.9,0	s-0.8,0.1-1.3,0.6c-0.4,0.5-1.7,1.6-1.7,4s1.7,4.6,1.9,4.9s3.3,5.3,8.1,7.2c4,1.6,4.8,1.3,5.7,1.2c0.9-0.1,2.8-1.1,3.2-2.3	c0.4-1.1,0.4-2.1,0.3-2.3c-0.1-0.2-0.4-0.3-0.9-0.6s-2.8-1.4-3.2-1.5c-0.4-0.2-0.8-0.2-1.1,0.2c-0.3,0.5-1.2,1.5-1.5,1.9	c-0.3,0.3-0.6,0.4-1,0.1c-0.5-0.2-2-0.7-3.8-2.4c-1.4-1.3-2.4-2.8-2.6-3.3c-0.3-0.5,0-0.7,0.2-1c0.2-0.2,0.5-0.6,0.7-0.8	c0.2-0.3,0.3-0.5,0.5-0.8c0.2-0.3,0.1-0.6,0-0.8C20.6,19.3,19.7,17,19.3,16z" clipRule="evenodd"></path>
+</svg>
+            </a>
         </div>
       </div>
 
@@ -16,13 +20,25 @@ const Footer = () => {
         <p> © By Abhinav Raj</p>
             <ul className='flex items-center gap-10 justify-center mt-4sm:mt-0'>
                 <li>
-                    <a target='_blank' href="https://www.instagram.com/dp_abhinav?utm_source=qr&igsh=NWV2aHVxZnMzd3E1">Instagram</a>
+                    <a target='_blank' href="https://www.instagram.com/dp_abhinav?utm_source=qr&igsh=NWV2aHVxZnMzd3E1">
+                      <svg x="0px" y="0px" width="40" height="40" viewBox="0 0 48 48" className="w-8 hover:scale-125 duration-200">
+<path fill="#f48fb1" d="M21,46h15c5.5,0,10-4.5,10-10V21c0-5.5-4.5-10-10-10H21c-5.5,0-10,4.5-10,10v15C11,41.5,15.5,46,21,46z"></path><path fill="none" stroke="#18193f" strokeLinecap="round" strokeLinejoin="round" strokeMiterlimit="10" strokeWidth="3" d="M41.5,21.1v-4.6c0-5.5-4.5-10-10-10h-15c-5.5,0-10,4.5-10,10v3"></path><path fill="none" stroke="#18193f" strokeLinecap="round" strokeLinejoin="round" strokeMiterlimit="10" strokeWidth="3" d="M6.5,25.6v5.9c0,5.5,4.5,10,10,10h15c5.5,0,10-4.5,10-10v-4.6"></path><path fill="none" stroke="#18193f" strokeMiterlimit="10" strokeWidth="3" d="M24,15.5c-4.7,0-8.5,3.8-8.5,8.5s3.8,8.5,8.5,8.5s8.5-3.8,8.5-8.5S28.7,15.5,24,15.5z"></path><path fill="#18193f" d="M34,12c-1.1,0-2,0.9-2,2s0.9,2,2,2s2-0.9,2-2S35.1,12,34,12z"></path>
+</svg>
+                    </a>
                 </li>
                 <li>
-                    <a target='_blank' href="https://www.linkedin.com/in/abhinav-raj-2b840b234?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">LinkedIn</a>
+                    <a target='_blank' href="https://www.linkedin.com/in/abhinav-raj-2b840b234?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+                      <svg x="0px" y="0px" width="40" height="40" viewBox="0 0 48 48" className="w-8 hover:scale-125 duration-200">
+<path fill="#8ce7f2" d="M40,44H15c-2.2,0-4-1.8-4-4V15c0-2.2,1.8-4,4-4h25c2.2,0,4,1.8,4,4v25C44,42.2,42.2,44,40,44z"></path><path fill="none" stroke="#18193f" strokeLinecap="round" strokeLinejoin="round" strokeMiterlimit="10" strokeWidth="3" d="M40.5,31.7v4.8c0,2.2-1.8,4-4,4h-25c-2.2,0-4-1.8-4-4V24.9"></path><path fill="none" stroke="#18193f" strokeLinecap="round" strokeLinejoin="round" strokeMiterlimit="10" strokeWidth="3" d="M7.5,19.2v-7.7c0-2.2,1.8-4,4-4h25c2.2,0,4,1.8,4,4v14"></path><circle cx="15.5" cy="15.5" r="2.5" fill="#18193f"></circle><path fill="#18193f" d="M17,35h-3c-0.6,0-1-0.4-1-1V21c0-0.6,0.4-1,1-1h3c0.6,0,1,0.4,1,1v13C18,34.6,17.6,35,17,35z"></path><path fill="#18193f" d="M29,20c-1.5,0-2.9,0.6-4,1.5V21c0-0.6-0.4-1-1-1h-3c-0.6,0-1,0.4-1,1v13c0,0.6,0.4,1,1,1h3c0.6,0,1-0.4,1-1	v-7.5c0-1.4,1.1-2.5,2.5-2.5s2.5,1.1,2.5,2.5V34c0,0.6,0.4,1,1,1h3c0.6,0,1-0.4,1-1v-8C35,22.7,32.3,20,29,20z"></path>
+</svg>
+                    </a>
                 </li>
                 <li>
-                    <a target='_blank' href="https://vimeo.com/showcase/11186058?share=copy&fbclid=PAZXh0bgNhZW0CMTEAAackAMqS7PMa9iuQLCNChQeY7skmXbfDXokoLrVQ97jV1jaIQRZJ3cAzb4rPBw_aem_s2_tB37Lv5JgcAA-MDZncQ">Vimeo</a>
+                    <a target='_blank' href="https://vimeo.com/showcase/11186058?share=copy&fbclid=PAZXh0bgNhZW0CMTEAAackAMqS7PMa9iuQLCNChQeY7skmXbfDXokoLrVQ97jV1jaIQRZJ3cAzb4rPBw_aem_s2_tB37Lv5JgcAA-MDZncQ">
+                      <svg   x="0px" y="0px" width="40" height="40" viewBox="0 0 128 128" className="w-8 hover:scale-125 duration-200">
+<path fill="#76ecff" d="M19,46.1l3.7,4.8c0,0,7.5-5.9,10.1-3c2.5,3,12.1,38.8,15.3,45.5c2.8,5.8,10.5,13.5,19,8c8.4-5.5,36.5-29.5,41.6-57.8c5-28.3-33.8-22.4-37.9,2.3c10.3-6.2,15.8,2.5,10.5,12.3C75.9,68,71.1,74.4,68.6,74.4c-2.5,0-4.4-6.6-7.3-18.1c-3-11.9-3-33.3-15.3-30.8C34.3,27.8,19,46.1,19,46.1z"></path><path fill="#444b54" d="M81.1,61.2c-0.5,0-1-0.1-1.4-0.4c-1.5-0.8-2-2.6-1.2-4.1c2.2-4.1,2-7.4,0.8-8.9c-1-1.3-0.7-3.2,0.6-4.2c1.3-1,3.2-0.7,4.2,0.6c2.9,3.8,2.8,9.7-0.3,15.4C83.2,60.6,82.2,61.2,81.1,61.2z"></path><path fill="#fff" d="M108.4,44.2c0-0.2,0.1-0.4,0.1-0.6c5-28.3-33.8-22.4-37.9,2.3c2.1-1.3,4-1.9,5.7-2C86.1,32.4,105,30.9,108.4,44.2z"></path><path fill="#fff" d="M30.6,46c5.5-5.4,8.7-9.2,15.3-10.5c12.4-2.4,12.3,19,15.3,30.8c2.9,11.5,4.8,18.1,7.3,18.1c2.5,0,7.3-6.4,12.6-16.2c2.5-4.7,2.6-9.1,0.8-11.8c0,0,0,0,0,0c-0.1,0.3-0.2,0.6-0.4,0.9c-0.1,0.3-0.3,0.6-0.5,0.9C75.9,68,71.1,74.4,68.6,74.4c-2.5,0-4.4-6.6-7.3-18.1c-3-11.9-3-33.3-15.3-30.8c-11.6,2.3-27,20.6-27,20.6l3.7,4.8c0,0,4.7-3.7,7.9-3.8C30.6,46.8,30.7,46.4,30.6,46z"></path><path fill="#4fbbc6" d="M67,91.4c-8.5,5.5-16.2-2.2-19-8c-3.2-6.6-3.2,3.4,0,10c2.8,5.8,10.5,13.5,19,8c8.4-5.5,36.5-29.5,41.6-57.8c0.7-3.7,0.6-6.8-0.1-9.4C103.1,62.2,75.4,85.9,67,91.4z"></path><path fill="#444b54" d="M68.6,77.4c-4.9,0-6.8-6.6-10.2-20.3c-0.7-2.7-1.2-5.8-1.7-9c-1.2-7.3-2.7-16.4-6.4-19c-0.6-0.4-1.7-1-3.7-0.6C37.8,30.2,25.4,43.2,21.3,48c-1.1,1.3-3,1.4-4.2,0.4c-1.3-1.1-1.4-3-0.4-4.2c0.7-0.8,16.1-19.1,28.7-21.6c3.1-0.6,5.9-0.1,8.2,1.5c5.8,4,7.4,13.6,8.9,22.9c0.5,3.1,1,6.1,1.6,8.6c1.1,4.3,3.2,12.7,4.7,15.4c1.5-1.2,4.7-5.1,9.6-14.2c0.8-1.5,2.6-2,4.1-1.2c1.5,0.8,2,2.6,1.2,4.1C74.3,77.4,70.1,77.4,68.6,77.4z"></path><g><path fill="#444b54" d="M61,106.3c-1.2,0-2.4-0.2-3.5-0.5c-5.8-1.6-10.2-7-12.2-11.1c-1.6-3.3-4.4-12.4-7.4-22.2c-2.7-8.9-6.4-21-7.6-22.7c-1.1-1.3-0.9-3.1,0.4-4.2c1.3-1.1,3.2-0.9,4.3,0.4c1.6,1.9,3.8,8.6,8.7,24.8c2.8,9.1,5.6,18.5,7,21.3c1.5,3.2,4.7,6.9,8.4,7.9c2.1,0.6,4.2,0.2,6.2-1.1c7.2-4.7,35.3-27.9,40.3-55.8c1.1-6,0-10.5-3-13c-3.2-2.7-8.7-3.1-14.3-1c-6.1,2.3-13.1,8-14.7,17.3c-0.3,1.6-1.8,2.7-3.5,2.5c-1.6-0.3-2.7-1.8-2.5-3.5c2-11.9,10.9-19.1,18.5-22c7.7-2.9,15.3-2.1,20.2,2.1c3.3,2.8,6.9,8.3,5.1,18.6c-5.3,30-35.2,54.8-42.9,59.8C66.2,105.5,63.6,106.3,61,106.3z"></path></g>
+</svg>
+                    </a>
                 </li>
             </ul>
       </div>

@@ -39,7 +39,7 @@ const Contact = () => {
       </h2>
 
       <p className='text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo'>
-        I'd love to hear from you ! If you have any request, query, comments, or feedback - feel free to reach out using the form below 🫡
+        I'd love to hear from you ! If you have any <span className='text-red-600'>work</span> related <span className='text-red-600'>request</span>, query, comments, or feedback - feel free to reach out using the form below 🫡
       </p>
 
       <form onSubmit={onSubmit} className='max-w-2xl mx-auto'>
