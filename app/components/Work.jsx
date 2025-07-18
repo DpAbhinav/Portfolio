@@ -19,8 +19,11 @@ const ThumbnailCard = ({ project }) => {
                 }
             } else if (project.platform === 'youtube') {
                 setThumb(`https://img.youtube.com/vi/${project.videoId}/hqdefault.jpg`);
+            } else if (project.platform === 'drive') {
+                setThumb(`https://drive.google.com/thumbnail?id=${project.videoId}`);
             }
         };
+
 
         fetchThumbnail();
     }, [project]);

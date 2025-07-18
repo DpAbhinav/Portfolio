@@ -254,6 +254,27 @@ export const workData = [
         platform: 'youtube',
         link: 'https://www.youtube.com/watch?v=_v76tby0r50&ab_channel=MediaMICE'
     },
+    {
+        title: 'Real Estate',
+        description: '',
+        platform: 'drive',
+        videoId: '1k7qF-NCOJxEqoLf1YLZSghTL8zK4Qd3W', // actual Google Drive file ID
+        link: 'https://drive.google.com/file/d/1k7qF-NCOJxEqoLf1YLZSghTL8zK4Qd3W/view?usp=drive_link'
+    },
+    {
+        title: 'Real Estate',
+        description: '',
+        platform: 'drive',
+        videoId: '1BX5Nm20woox_z8rUzhWem8rQdmLE-v9A', // actual Google Drive file ID
+        link: 'https://drive.google.com/file/d/1BX5Nm20woox_z8rUzhWem8rQdmLE-v9A/view?usp=drive_link'
+    },
+    {
+        title: 'Real Estate',
+        description: '',
+        platform: 'drive',
+        videoId: '1ojz2uw2ki2003eCWDWYa7C7vaLgboeC0', // actual Google Drive file ID
+        link: 'https://drive.google.com/file/d/1ojz2uw2ki2003eCWDWYa7C7vaLgboeC0/view?usp=drive_link'
+    }
 ]
 
 

@@ -20,7 +20,7 @@ export default function MasonryGallery() {
 
                 </h4>
                 <h2 className='text-center text-5xl font-Ovo'>
-                    Frame Graph <span className="font-bold text-red-600 "> . </span>
+                    Framegrabs <span className="font-bold text-red-600 "> . </span>
                 </h2>
             </div>
 
