@@ -10,7 +10,7 @@ const Services = () => {
         Quick Glance !
       </h4>
       <h2 className='text-center text-5xl font-Ovo'>
-        Show Reel 2024
+        Show Reel 20<span className=" text-red-600 ">24</span>
       </h2>
     </div>
 

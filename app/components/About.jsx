@@ -3,7 +3,9 @@ import Image from 'next/image'
 import { assets, infoList } from '@/assets/assets'
 const About = () => {
   return (
+
     <div className='w-full px-[12%] py-10 scroll-mt-20' id='about'>
+        <hr className="my-4 border-t border-gray-300" />
       <h4 className='text-center mb-2 text-lg font-Ovo'>
         Introduction
       </h4>
