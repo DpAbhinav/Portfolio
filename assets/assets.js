@@ -262,8 +262,8 @@ export const infoList = [
     icon: assets.edu_icon,
     iconDark: assets.edu_icon_dark,
     title: 'Education',
-    description: <>BACHELOR OF SCIENCE CINEMA</>,
-    extras: <>Academy Of Film And Television</>
+    description: <>BACHELOR OF SCIENCE (<span className="font-bold text-red-600 text-justify">CINEMA</span>)</>,
+    extras: <>Asian Academy Of Film And Television</>
   },
   {
     icon: assets.project_icon,
