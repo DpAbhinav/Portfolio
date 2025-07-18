@@ -6,6 +6,7 @@ import Header from "./components/Header";
 import Navbar from "./components/Navbar";
 import Gallery from "./components/Gallery";
 import Work from "./components/Work";
+import MasonryGallery from "@/app/components/MasonryGallery.jsx";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <Navbar />
       <Header />
       <Gallery/>
+        <MasonryGallery />
       <Work />  
       <About />
       <Contact/>
