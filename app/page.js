@@ -14,7 +14,7 @@ export default function Home() {
       <Navbar />
       <Header />
       <Gallery/>
-        <MasonryGallery />
+        {/*<MasonryGallery />*/}
       <Work />  
       <About />
       <Contact/>
