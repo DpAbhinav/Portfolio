@@ -6,7 +6,7 @@ const Footer = () => {
     <div className='mt-20'>
       <div className='text-center'>
         <div className='w-max flex items-center gap-2 mx-auto'> 
-            <Image src={assets.mail_icon} alt='' className='w-6 mx-auto mb-2'/>
+            <Image src={assets.mail_icon} alt='' className='w-6 mx-auto '/>
             rajabhinav201@gmail.com
             <a href="https://wa.me/qr/J32NDAU7X33YF1" target='_blank' className='ml-3'>
               <svg x="0px" y="0px" width="40" height="40" viewBox="0 0 48 48">
