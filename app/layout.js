@@ -24,7 +24,7 @@ export default function RootLayout({ children }) {
             {/* ✅ Cloudflare Analytics Script */}
             <Script
                 src="https://static.cloudflareinsights.com/beacon.min.js"
-                data-cf-beacon='{"07b96f409d8949f4a11483e27783737b"}'
+                data-cf-beacon='{ "token": "07b96f409d8949f4a11483e27783737b"}'
                 strategy="afterInteractive"
             />
         </head>
